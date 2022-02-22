@@ -1,7 +1,36 @@
 {
   "dependencies": {
-    "next": "^12.0.10",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.4.3",
+    "bootstrap": "^5.1.3",
+    "install": "^0.13.0",
+    "next": "^12.1.0",
+    "npm": "^8.5.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "react-dom": "^17.0.2",
+    "reactstrap": "^9.0.1",
+    "yarn": "^1.22.17"
+  },
+  "name": "folio-ihc",
+  "description": "Folio Pychehe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbaAndrea01/Folio-IHC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbaAndrea01/Folio-IHC/issues"
+  },
+  "homepage": "https://github.com/AlbaAndrea01/Folio-IHC#readme"
 }

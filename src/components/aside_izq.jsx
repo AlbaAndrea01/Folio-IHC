@@ -3,20 +3,21 @@ import React from "react";
 
 const Aside_izq=({title}) =>{
     return(
-        <div className="col-2 position-fixed h-100 p-0">
-        <h3 className="text_ d-flex justify-content-center my-3">Sobre nosotros</h3>
-       
+        <div className="col-2 aside position-fixed h-100 p-0">
+    
         <div className="box">
+        <h3 className="text_ d-flex justify-content-center my-3">Sobre nosotros</h3>
         <h5>¿Quienes somos?</h5>
-        <p>Somos un grupo de estudiantes, especificamente de 3 integrantes de la carrera de Ingenieria Informatica.</p>
-        <p>Creadores de App Pycheche en la materia de IHC.</p>
+        <p>Somos un grupo de estudiantes de la carrera de Ingenieria Informatica de la Universidad Nacional de Itapúa.</p>
+        <p>Creadores de App Pycheche para la la materia de Interaccion Humano-Computadora.</p>
+        <p>2021-2022</p>
         </div>
         <div className="box">
            
            <h5>Integrantes</h5>
-            <li>Albi</li>
-            <li>Reni</li>
-            <li>Dalila</li>
+            <li>Alba Esquivel</li>
+            <li>Sebastian Caballero</li>
+            <li>Dalila Castelnovo</li>
         </div>
         <style jsx>{`
             div {

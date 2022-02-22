@@ -3,15 +3,11 @@ import Image from 'next/Image';
 
 const Navigation = () => {
     return (
-        <nav className="navbar navbar-expand-lg contenedor"> 
-                   <Image src="/images/logo.png" alt="Logo de la Empresa" width={60} height={32} />
+        <nav className="navbar navbar-expand-lg contenedor nav"> 
             <Link href="/">
-                <a className="navbar-brand">PYCHECHE</a>
+                   <img src="/images/pycheche.png" alt="Pycheche" />
             </Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="text-right" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link href="/milestone1">
@@ -33,7 +29,7 @@ const Navigation = () => {
             </div>
             <style jsx>{`
                 nav {
-                    background: black;
+                    background: #FFB287;
                     color: white;
                 }
                 a {
