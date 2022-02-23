@@ -35,9 +35,9 @@ const Milestone2 = () => {
           </div>
         </div>
         <Divider className='divider' variant="middle" />
-        <div>
+        <div className='columnas'>
           <h5>Evaluaciones-Heurísticas</h5>
-          <p className='columnas'>
+          <p className=''>
             Se realizó la evaluación heurística con grupos de compañeros a través de llamadas en meet.
             En momentos separados se realizaron reuniones de meet con los miembros del otro grupo para realizar la evaluación
             con demostraciones de los prototipos y realizando preguntas, una vez terminada la evaluación, cada uno relleno una

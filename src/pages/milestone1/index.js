@@ -23,6 +23,8 @@ const Milestone1 = () => {
           </div>
           <img className='col-md-6 col-sm-12' src="/images/map-empatia.png" alt="mapa-empatia" />
         </div>
+        <div className='margin-top'></div>
+        <Divider className='margin-top divider' variant="middle" />
         <div>
           <h5>Resumen del problema</h5>
           <p>
@@ -65,7 +67,7 @@ const Milestone1 = () => {
             <li>El sistema debe filtrar la información con respecto a lo que el usuario selecciona</li>
           </div>
         </div>
-        <Image src="/images/persona.png" alt="persona" width={600} height={350} />
+        <img src="/images/persona.png" alt="persona" />
       </div>
     </Container>
   )

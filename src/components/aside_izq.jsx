@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Link from "next/link";
 
 const Aside_izq=({title}) =>{
     return(
@@ -18,6 +19,13 @@ const Aside_izq=({title}) =>{
             <li>Alba Esquivel</li>
             <li>Sebastian Caballero</li>
             <li>Dalila Castelnovo</li>
+        </div>
+        <div className="box">
+            <Link href="https://github.com/SoyReni/Pycheche-2021.git">
+                <a target="_blank">
+                    <h5>Link al repositorio de github</h5>
+                </a>
+            </Link>
         </div>
         <style jsx>{`
             div {

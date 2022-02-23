@@ -11,7 +11,7 @@ const Milestone3 = () => {
       <HeaderTitle title="Home Pycheche" />
       <div className='texto'>
         <h1>Milestone3</h1>
-        <div className='separata-bottom'>
+       <div className='separate-bottom'> 
           <h5>Tareas que va permitir realizar la aplicación </h5>
           <li>Tarea 1: crear una clase nueva , guardar la case </li>
           <li>Tarea 2: Crear una coreografía nueva, agregar un paso o varios, guardar los pasos y guardar la coreografía</li>
@@ -20,17 +20,24 @@ const Milestone3 = () => {
         <Divider className='divider' variant="middle" />
         <div>
           <h5>Wireframes digitales en escala de grises:  </h5>
-          <Image src="/images/gama-gris.png" alt="gama-gris" width={871} height={758} />
+          <img src="/images/gama-gris.png" alt="gama-gris" />
         </div>
-        <div>
-          <h5>Esquema de colores: </h5>
-          <p>Se decidió utilizar una gama de colores cálidos en tosnalidades pastel, para evocar la calidez y dulzura que transmite
-            la danza paraguaya, el color durazno es el color principal ya que presenta buen contraste con el fondo pero no es invasivo. </p>
-          <Image src="/images/colores.png" alt="colores" width={322} height={357} />
+        <div className='margin-top row'>
+          <div className='col-12'>
+            <h5>Esquema de colores: </h5>
+            <p>Se decidió utilizar una gama de colores cálidos en tosnalidades pastel, para evocar la calidez y dulzura que transmite
+              la danza paraguaya, el color durazno es el color principal ya que presenta buen contraste con el fondo pero no es invasivo. </p>
+          </div>
+          <div className='col-md-2 col-sm-4 color color1 text-center'>FFB287</div>
+          <div className='col-md-2 col-sm-4 color color2 text-center'>FCE18B</div>
+          <div className='col-md-2 col-sm-4 color color3 text-center'>FF7893</div>
+          <div className='col-md-2 col-sm-4 color color4 text-center'>C4C4C4</div>
+          <div className='col-md-2 col-sm-4 color color5 text-center'>6B6B6B</div>
         </div>
         <Divider className='divider' variant="middle" />
+        <div className='separate-bottom'></div>
         <di className="row">
-          <h5>Esquema de colores: </h5>
+          <h5>Mejoras: </h5>
           <div className='col-md-6 col-sm-12'>
             <li>Se incorporó el botón de atrás en algunas pantallas para retroceder un paso.</li>
             <li>Se creó el editor de pasos, para que agregar un paso sea más parecido al método real que se utiliza, y por lo tanto más intuitivo. </li>
@@ -53,20 +60,22 @@ const Milestone3 = () => {
           </div>
         </di>
         <Divider className='divider' variant="middle" />
+        <div className='separate-bottom'></div>
         <div>
           <h5>Prototipos de alta fidelidad: </h5>
-          <Image src="/images/gama-color.png" alt="gama-color" width={986} height={737} />
+          <img src="/images/gama-color.png" alt="gama-color"/>
         </div>
-
+        <Divider className='divider' variant="middle" />
+        <div className='separate-bottom'></div>
         <div>
           <h5>Planificacion para el testeo:  </h5>
           <p>Se creó una prueba para testear la usabilidad del prototipo en maze que sera enviada a estudiantes y profesores de danza paraguaya.
             Estos serán reclutados a través de mensajes de texto.</p>
-            <div className='text-center'>
-          <Link className="test-cont" href="https://t.maze.co/65461365">
-            <a className='test'>Tests de usabilidad</a>
-          </Link>
-            </div>
+          <div className='text-center'>
+            <Link className="test-cont" href="https://t.maze.co/65461365">
+              <a target="_blank" className='test'>Tests de usabilidad</a>
+            </Link>
+          </div>
           <div className='row margin-top'>
             <div className='col-md-6 col-sm-12'>
               <h6>Puntos interesantes que resaltar del testeo. </h6>

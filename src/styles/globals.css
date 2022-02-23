@@ -65,6 +65,7 @@ Footer{
   border-radius: 20px;
   padding: 2%;
   width: 99%;
+  margin-top: 25px;
 }
 
 .columnas{
@@ -96,6 +97,50 @@ Footer{
   color: #FFB287;
 }
 
-.margin-top{
+.padding-top{
   padding-top: 20px;
+}
+.margin-top{
+  margin-top: 20px;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-right: 50px;
+  max-width: 200px;
+}
+
+.color{
+  border-radius: 20px;
+  padding: 20px;
+  font-family: "Baloo 2";
+  font-size: 2em;
+  font-weight: 800;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.color1{
+  background-color: #FFB287;
+  color: white;
+}
+
+.color2{
+  background-color: #FCE18B;
+  color: white;
+}
+
+.color3{
+  background-color: #FF7893;
+  color: white;
+}
+
+.color4{
+  background-color: #C4C4C4;
+  color: white;
+}
+
+.color5{
+  background-color: #6B6B6B;
+  color: white;
 }

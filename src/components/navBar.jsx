@@ -4,8 +4,8 @@ import Image from 'next/Image';
 const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-lg contenedor nav"> 
-            <Link href="/">
-                   <img src="/images/pycheche.png" alt="Pycheche" />
+            <Link className="logo" href="/">
+                   <img className='logo' src="/images/pycheche.png" alt="Pycheche"/>
             </Link>
             <div className="text-right" id="navbarNav">
                 <ul className="navbar-nav">
